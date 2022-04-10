@@ -1,1 +1,54 @@
-Hello World
+<!DOCTYPE html>
+<html data-lt-installed="true"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script type="application/shiny-singletons"></script>
+  <script type="application/html-dependencies">jquery[3.6.0];shiny-css[1.6.0.9000];shiny-javascript[1.6.0.9000];bootstrap[3.4.1]</script>
+<script src="index-Dateien/jquery.js"></script>
+<link href="index-Dateien/shiny.css" rel="stylesheet">
+<script src="index-Dateien/shiny.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="index-Dateien/bootstrap.css" rel="stylesheet">
+<link href="index-Dateien/bootstrap-accessibility.css" rel="stylesheet">
+<script src="index-Dateien/bootstrap.js"></script>
+<script src="index-Dateien/bootstrap-accessibility.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3">
+        <form class="well" role="complementary">
+          <h2>My Static website</h2>
+          <h3>Internal link example</h3>
+          <a href="#birds">
+            <h4>Birds</h4>
+          </a>
+          <hr>
+          <h3>External link example</h3>
+          <a href="https://en.wikipedia.org/wiki/Main_Page" target="blank">
+            <h4>Wikipedia</h4>
+          </a>
+        </form>
+      </div>
+      <div class="col-sm-9" role="main">
+        <h2>Link to a saved sample.html</h2>
+        <p>The url is https://mahmoodan.github.io/samples/sample.html</p>
+        <a href="https://mahmoodan.github.io/samples/sample.html" target="blank">
+          <h3>Lovely Birds</h3>
+        </a>
+        <hr>
+        <h2 id="birds">Text and image example</h2>
+        <div class="row">
+          <div class="col-sm-7"><p>Use <code>includeMarkdown("path/to/birds.Rmd")</code> to include large chunks of text to keep <code>ui.R</code> more readable.</p>
+
+<p>Image files are placed in subdirecotry <code>www/</code> and insert an image with <code>img(src = "birds.png")</code>.</p>
+</div>
+          <div class="col-sm-5">
+            <img src="index-Dateien/birds.png" width="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body></html>
